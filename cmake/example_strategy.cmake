@@ -23,6 +23,7 @@ set_target_properties(example_strategy PROPERTIES
   LIBRARY_OUTPUT_DIRECTORY ${QTRADE_STRATEGY_PLUGIN_OUTPUT_DIR}
   OUTPUT_NAME example_strategy
   BUILD_RPATH "\$ORIGIN"
+  INSTALL_RPATH "\$ORIGIN/.."
 )
 
 install(TARGETS example_strategy
