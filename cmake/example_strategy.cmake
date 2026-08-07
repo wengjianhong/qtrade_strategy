@@ -14,7 +14,7 @@ target_include_directories(example_strategy PRIVATE
 )
 
 target_link_libraries(example_strategy PRIVATE
-  qtrade::qtrade_common
+  qtrade_engine::qtrade_engine
 )
 
 target_compile_options(example_strategy PRIVATE -fvisibility=hidden)

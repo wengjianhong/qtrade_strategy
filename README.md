@@ -2,7 +2,7 @@
 
 策略插件仓库：产出可被 `qtrade_client` / `IEngine::LoadStrategiesFromPlugins` 加载的 `.so`。
 
-**依赖**已安装的 `qtrade`（`find_package(qtrade)`）。
+**依赖**已安装的 `qtrade_engine`（`find_package(qtrade_engine)`）。
 
 ## 构建
 
